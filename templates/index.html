@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 AI Resume Analyzer</h1>
+            <p class="tagline">Get instant feedback on your resume with the power of AI.</p>
+        </header>
+
+        <section class="upload-section">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="resume">Upload Resume (PDF only):</label>
+                <input type="file" name="resume" id="resume" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Created with ❤️ by Your Name</p>
+        </footer>
+    </div>
+</body>
+</html>
